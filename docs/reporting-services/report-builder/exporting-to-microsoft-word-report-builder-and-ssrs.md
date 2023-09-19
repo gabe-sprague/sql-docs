@@ -78,10 +78,6 @@ This occurs because Word renderer parses the report for fields related to pagina
 
 To avoid this problem, use multiple text runs instead of one complex expression when you use expressions in footers and headers. The following two expressions are equivalent. The first one is a complex expression the second one uses text runs. The Word renderer parses only the second expression successfully.
 
-## Document Map
-
-If any document map labels exist in the report, they are rendered as Word Table of Contents (TOC) labels on the respective report items and groups. The document map label is used as the label text for the TOC labels. The target link is positioned near the item on which the label is set. While a TOC is not created for you in the Word document, you can build your own TOC using the document map labels that are rendered in the report. See [Create a document map or table of contents (Report Builder)](../report-design/create-a-document-map-report-builder-and-ssrs.md) for more information.
-
 ## <a id="Interactivity"></a> Interactivity
 
 Some interactive elements are supported in Word. The following is a description of specific behaviors.
