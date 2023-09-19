@@ -32,8 +32,6 @@ Create a document map to provides a set of clickable links or table of contents 
   
 -   Excel renders a document map as a named worksheet that includes a hierarchy of links. Report sections are rendered in separate worksheets that are included with the document map in the same workbook. See [Exporting to Microsoft Excel (Report Builder)](../report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs.md) for more information.
   
--   Word includes a document map as the table of contents. See [Exporting to Microsoft Word (Report Builder)](../report-builder/exporting-to-microsoft-word-report-builder-and-ssrs.md) for more information.
-  
 -   Atom, TIFF, XML, and CSV ignore document maps.  
   
  For more information, see [Interactive Functionality for Different Report Rendering Extensions &#40;Report Builder and SSRS&#41;](../../reporting-services/report-builder/interactive-functionality-different-report-rendering-extensions.md).  
